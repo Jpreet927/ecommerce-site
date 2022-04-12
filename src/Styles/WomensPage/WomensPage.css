@@ -11,7 +11,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background-image: url("../Assets/Images/Women-Hero-4.jpg");
+  background-image: url("../../Assets/Images/Women-Hero-4.jpg");
   background-size: cover;
   background-position: 0px -560px;
 }
@@ -26,5 +26,11 @@
 .womens__container p {
   font-family: "Roboto", sans-serif;
   color: #f3f3f3;
+}
+
+.womens__product-section {
+  background: #080d12;
+  height: 100vh;
+  padding: 120px 240px;
 }
 /*# sourceMappingURL=WomensPage.css.map */

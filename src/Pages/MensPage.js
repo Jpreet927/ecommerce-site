@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Styles/MensPage.css"
+import "../Styles/MensPage/MensPage.css"
 
 function MensPage() {
   return (

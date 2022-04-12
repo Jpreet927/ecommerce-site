@@ -11,7 +11,7 @@
 }
 
 .footer__container .footer__top {
-  padding: 60px 200px;
+  padding: 60px 200px 100px 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +21,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-color: #080d12;
+  background-color: #13151a;
 }
 
 .footer__container .footer__top .footer__top-left h1 {
@@ -81,6 +81,10 @@
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
+}
+
+.footer__container .footer__bottom .footer__bottom-regular {
+  font-weight: 400;
 }
 
 .footer__container .footer__bottom .footer__bottom-icons {

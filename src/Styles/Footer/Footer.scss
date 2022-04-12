@@ -1,4 +1,4 @@
-@import "../Utilities/variables";
+@import "../../Utilities/variables";
 
 .footer__container {
   width: 100%;
@@ -7,11 +7,11 @@
   color: $subtextWhite;
 
   .footer__top {
-    padding: 60px 200px;
+    padding: 60px 200px 100px 200px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: $backgroundBlack;
+    background-color: $backgroundGrey;
 
     .footer__top-left {
       h1 {
@@ -56,6 +56,10 @@
     font-family: $sansSerifMain;
     font-size: 14px;
     font-weight: 700;
+
+    .footer__bottom-regular {
+      font-weight: 400;
+    }
 
     .footer__bottom-icons {
       display: flex;

@@ -1,4 +1,4 @@
-@import "../Utilities/variables";
+@import "../../Utilities/variables";
 
 .about__container {
   width: 100%;
@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../Assets/Images/About-Hero-2.jpg");
+  background-image: url("../../Assets/Images/About-Hero-2.jpg");
   background-size: cover;
   background-position: 0px -500px;
   padding: 120px;

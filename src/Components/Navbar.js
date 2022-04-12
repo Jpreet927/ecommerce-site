@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import '../Styles/Navbar.css'
+import '../Styles/Navbar/Navbar.css'
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 
 function Navbar() {

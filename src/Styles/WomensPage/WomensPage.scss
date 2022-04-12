@@ -1,15 +1,15 @@
-@import "../Utilities/variables";
+@import "../../Utilities/variables";
 
-.mens__container {
+.womens__container {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("../Assets/Images/Men-Hero-3.jpg");
+  background-image: url("../../Assets/Images/Women-Hero-4.jpg");
   background-size: cover;
-  background-position: 0px -450px;
+  background-position: 0px -560px;
 
   h1 {
     font-family: $serifMain;
@@ -22,4 +22,10 @@
     font-family: $sansSerifMain;
     color: $subtextWhite;
   }
+}
+
+.womens__product-section {
+  background: $backgroundBlack;
+  height: 100vh;
+  padding: 120px 240px;
 }

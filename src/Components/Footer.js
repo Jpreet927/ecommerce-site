@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Styles/Footer.css"
+import "../Styles/Footer/Footer.css"
 
 function Footer() {
   return (
@@ -42,7 +42,8 @@ function Footer() {
             </div>
         </div>
         <div className="footer__bottom">
-            <p>© Allora Salve ltd. - A Fictional Fashion Store Created by Jaipreet Singh :)</p>
+            <p>© Allora Salve ltd.</p>
+            <p className="footer__bottom-regular">A Fictional Fashion Store Created by Jaipreet Singh :)</p>
             <div className="footer__bottom-icons">
                 <img src={require("../Assets/Icons/Twitter-Logo.png")} alt="" />
                 <img src={require("../Assets/Icons/YouTube-Logo.png")} alt="" />
