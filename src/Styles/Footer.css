@@ -1,0 +1,96 @@
+.footer__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #f3f3f3;
+}
+
+.footer__container .footer__top {
+  padding: 60px 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #080d12;
+}
+
+.footer__container .footer__top .footer__top-left h1 {
+  color: #ff002e;
+  font-family: "Bodoni Moda", serif;
+}
+
+.footer__container .footer__top .footer__top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 120px;
+}
+
+.footer__container .footer__top .footer__top-right .footer__top-right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 36px;
+}
+
+.footer__container .footer__top .footer__top-right .footer__top-right-column .footer__top-right-column-subtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+
+.footer__container .footer__top .footer__top-right .footer__top-right-column .footer__top-right-column-subtext p {
+  color: #80868d;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+.footer__container .footer__top .footer__top-right .footer__top-right-column .footer__top-right-column-subtext p:hover {
+  color: #f3f3f3;
+  cursor: pointer;
+}
+
+.footer__container .footer__bottom {
+  background-color: #ff002e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px 200px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer__container .footer__bottom .footer__bottom-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.footer__container .footer__bottom .footer__bottom-icons img {
+  height: 15px;
+}
+/*# sourceMappingURL=Footer.css.map */

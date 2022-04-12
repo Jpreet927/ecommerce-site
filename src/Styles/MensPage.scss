@@ -1,0 +1,25 @@
+@import "../Utilities/variables";
+
+.mens__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../Assets/Images/Men-Hero-3.jpg");
+  background-size: cover;
+  background-position: 0px -450px;
+
+  h1 {
+    font-family: $serifMain;
+    color: $primaryRed;
+    font-size: 5em;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: $sansSerifMain;
+    color: $subtextWhite;
+  }
+}

@@ -1,0 +1,46 @@
+@import "../Utilities/variables";
+
+.home__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../Assets/Images/Women-Hero-2.jpg");
+  background-size: cover;
+  background-position: 0px -100px;
+
+  .home__heading-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    justify-content: center;
+
+    button {
+      background-color: $primaryRed;
+      border: none;
+      padding: 12px;
+      color: $subtextWhite;
+      font-weight: 700;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+    }
+  }
+
+  h1 {
+    font-family: $serifMain;
+    color: $primaryRed;
+    font-size: 5em;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: $sansSerifMain;
+    color: $subtextWhite;
+  }
+}

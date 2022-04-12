@@ -4,7 +4,9 @@ import HomePage from "./Pages/HomePage";
 import MensPage from "./Pages/MensPage";
 import WomensPage from "./Pages/WomensPage";
 import AboutPage from "./Pages/AboutPage";
+import CheckoutPage from "./Pages/CheckoutPage";
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer'
 import './Styles/App.css';
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
           <Route path="/mens" element={<MensPage />} />
           <Route path="/womens" element={<WomensPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/checkout" element={<CheckoutPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -1,0 +1,86 @@
+.about__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../Assets/Images/About-Hero-2.jpg");
+  background-size: cover;
+  background-position: 0px -500px;
+  padding: 120px;
+}
+
+.about__container .about__main {
+  background: rgba(8, 13, 18, 0.904);
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 100px;
+  padding: 60px;
+}
+
+.about__container .about__heading {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 48px;
+}
+
+.about__container .about__heading .about__heading-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+
+.about__container .about__heading .about__heading-description img {
+  max-width: 250px;
+}
+
+.about__container .about__hero-image {
+  width: 40%;
+  overflow: hidden;
+}
+
+.about__container .about__hero-image img {
+  width: 100%;
+}
+
+.about__container h1 {
+  font-family: "Bodoni Moda", serif;
+  color: #ff002e;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.about__container h3 {
+  font-family: "Roboto", sans-serif;
+  color: #f3f3f3;
+}
+
+.about__container p {
+  font-family: "Roboto", sans-serif;
+  color: #f3f3f3;
+  line-height: 1.5em;
+}
+/*# sourceMappingURL=AboutPage.css.map */
