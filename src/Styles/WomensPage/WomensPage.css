@@ -30,7 +30,14 @@
 
 .womens__product-section {
   background: #080d12;
-  height: 100vh;
   padding: 120px 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=WomensPage.css.map */

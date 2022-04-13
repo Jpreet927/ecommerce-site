@@ -26,6 +26,9 @@
 
 .womens__product-section {
   background: $backgroundBlack;
-  height: 100vh;
+  // height: 100vh;
   padding: 120px 240px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }

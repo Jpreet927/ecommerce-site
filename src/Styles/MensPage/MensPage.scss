@@ -23,3 +23,12 @@
     color: $subtextWhite;
   }
 }
+
+.mens__product-section {
+  background: $backgroundBlack;
+  // height: 100vh;
+  padding: 120px 240px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}

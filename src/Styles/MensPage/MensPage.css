@@ -27,4 +27,15 @@
   font-family: "Roboto", sans-serif;
   color: #f3f3f3;
 }
+
+.mens__product-section {
+  background: #080d12;
+  padding: 120px 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 /*# sourceMappingURL=MensPage.css.map */

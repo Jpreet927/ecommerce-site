@@ -6,7 +6,7 @@ import WomensPage from "./Pages/WomensPage";
 import AboutPage from "./Pages/AboutPage";
 import CheckoutPage from "./Pages/CheckoutPage";
 import Navbar from './Components/Navbar';
-import Footer from './Components/Footer'
+import Footer from './Components/Footer';
 import './Styles/App.css';
 
 function App() {

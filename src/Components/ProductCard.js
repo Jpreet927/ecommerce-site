@@ -1,16 +1,18 @@
 import React from 'react'
 import '../Styles/ProductCard/ProductCard.css'
 
-function ProductCard() {
+function ProductCard(props) {
+    const { product } = props;
+
   return (
     <div className="product__container">
         <div className="product__main">
-            <img src={require('../Assets/Images/Women/3.jpg')} alt="" />
+            <img src={product.image} alt={product.name} />
             <div className="product__details">
                 <div className="product__name">
-                    <h3>Product Name</h3>
-                    <p>Enim dolor ea officia duis dolore sint ea occaecat laboris voluptate reprehenderit.</p>
-                    <p>$1200.99</p>
+                    <h3>{product.name}</h3>
+                    <p>{product.description}</p>
+                    <p>${product.price}</p>
                 </div>
             </div>
         </div>

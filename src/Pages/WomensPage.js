@@ -1,10 +1,13 @@
 import React from 'react'
-import Product from '../Components/ProductCard'
+import ProductCard from '../Components/ProductCard'
 import '../Styles/WomensPage/WomensPage.scss'
+import { womensProducts } from '../Data/WomenProducts'
+import { ListItem } from '@mui/material'
 
 function WomensPage() {
   return (
     <>
+      {}
       <div className="womens__container">
         <div className="womens__heading">
           <h1>WOMEN'S</h1>
@@ -12,7 +15,9 @@ function WomensPage() {
         </div>
       </div>
       <div className="womens__product-section">
-        <Product />
+        {womensProducts.map((item) => (
+          <ProductCard key={item.id} product={item} />
+        ))}
       </div>
     </>
   )
