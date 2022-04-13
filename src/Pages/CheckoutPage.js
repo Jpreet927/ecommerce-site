@@ -5,18 +5,18 @@ import '../Styles/CheckoutPage/CheckoutPage.css'
 function CheckoutPage(props) {
   const { cartItems, handleIncrementQuantity, handleDecrementQuantity, handleRemove } = props;
 
-  const SHIPPING_COST = 15.00;
+  const SHIPPING_COST = Math.round(15 * 100) / 100;
 
-  const totalQuantity = cartItems.reduce((acc, curr) => (
+  const totalQuantity = Math.round(cartItems.reduce((acc, curr) => (
     acc + curr.quantity
-  ), 0);
+  ), 0) * 100) / 100;
 
-  const subTotal = cartItems.reduce((acc, curr) => (
+  const subTotal = Math.round(cartItems.reduce((acc, curr) => (
     acc + (curr.price * curr.quantity)
-  ), 0);
+  ), 0) * 100) / 100;
 
-  const taxSubtotal = subTotal * 0.13;
-  const orderTotal = subTotal + taxSubtotal + SHIPPING_COST;
+  const taxSubtotal = Math.round(subTotal * 0.13 * 100) / 100;
+  const orderTotal = Math.round((subTotal + taxSubtotal + SHIPPING_COST) * 100) / 100;
 
   return (
     <div className="checkout__container">
