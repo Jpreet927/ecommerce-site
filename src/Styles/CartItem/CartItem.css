@@ -1,0 +1,47 @@
+.cartitem__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  width: 300px;
+}
+
+.cartitem__main .cartitem__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.cartitem__main .cartitem__information .cartitem__thumbnail {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.cartitem__main .cartitem__information .cartitem__thumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cartitem__main .cartitem__information .cartitem__details h3 {
+  color: #f3f3f3;
+  font-size: 1em;
+}
+
+.cartitem__main .cartitem__information .cartitem__details p {
+  color: #80868d;
+  font-size: 0.7em;
+}
+/*# sourceMappingURL=CartItem.css.map */

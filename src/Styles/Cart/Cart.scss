@@ -1,0 +1,54 @@
+@import "../../Utilities/variables";
+
+.cart__main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  z-index: 10;
+  background-color: $backgroundGreyOpacity;
+  backdrop-filter: blur(16px);
+  padding: 24px;
+
+  .cart__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+      color: $primaryRed;
+    }
+  }
+
+  .cart__items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .cart__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $subtextWhite;
+  }
+
+  .cart__checkout-button {
+    background-color: $primaryRed;
+    border: none;
+    color: $subtextWhite;
+    font-weight: 700;
+    padding: 12px;
+    width: 100%;
+  }
+
+  .cart__divider {
+    height: 1px;
+    width: 100%;
+    background-color: $subtextGrey;
+    border: none;
+    opacity: 0.3;
+  }
+}

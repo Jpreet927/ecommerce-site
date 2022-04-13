@@ -1,0 +1,55 @@
+@import "../../Utilities/variables";
+
+.checkoutitem__main {
+  h1,
+  h3,
+  p {
+    color: $subtextWhite;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .checkoutitem__information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .checkoutitem__column {
+      width: 20%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .checkoutitem__name {
+      justify-content: flex-start;
+    }
+
+    .checkoutitem__price {
+      text-align: left;
+    }
+
+    .checkoutitem__thumbnail {
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .checkoutitem__quantity {
+      gap: 12px;
+
+      button {
+        background: none;
+        border: none;
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/ProductCard/ProductCard.css'
 
 function ProductCard(props) {
-    const { product } = props;
+    const { product, handleAdd } = props;
 
   return (
     <div className="product__container">
@@ -16,7 +16,7 @@ function ProductCard(props) {
                 </div>
             </div>
         </div>
-        <button className="product__button">Add to Cart</button>
+        <button className="product__button" onClick={() => handleAdd(product)}>Add to Cart</button>
     </div>
   )
 }

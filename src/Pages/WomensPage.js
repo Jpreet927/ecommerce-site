@@ -4,7 +4,9 @@ import '../Styles/WomensPage/WomensPage.scss'
 import { womensProducts } from '../Data/WomenProducts'
 import { ListItem } from '@mui/material'
 
-function WomensPage() {
+function WomensPage(props) {
+  const { handleAdd } = props;
+
   return (
     <>
       {}
@@ -16,7 +18,7 @@ function WomensPage() {
       </div>
       <div className="womens__product-section">
         {womensProducts.map((item) => (
-          <ProductCard key={item.id} product={item} />
+          <ProductCard key={item.id} product={item} handleAdd={handleAdd} />
         ))}
       </div>
     </>

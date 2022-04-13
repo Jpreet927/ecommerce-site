@@ -1,0 +1,67 @@
+.checkoutitem__main h1,
+.checkoutitem__main h3,
+.checkoutitem__main p {
+  color: #f3f3f3;
+}
+
+.checkoutitem__main p {
+  font-size: 14px;
+}
+
+.checkoutitem__main .checkoutitem__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.checkoutitem__main .checkoutitem__information .checkoutitem__column {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkoutitem__main .checkoutitem__information .checkoutitem__name {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.checkoutitem__main .checkoutitem__information .checkoutitem__price {
+  text-align: left;
+}
+
+.checkoutitem__main .checkoutitem__information .checkoutitem__thumbnail {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.checkoutitem__main .checkoutitem__information .checkoutitem__thumbnail img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.checkoutitem__main .checkoutitem__information .checkoutitem__quantity {
+  gap: 12px;
+}
+
+.checkoutitem__main .checkoutitem__information .checkoutitem__quantity button {
+  background: none;
+  border: none;
+}
+/*# sourceMappingURL=CheckoutItem.css.map */

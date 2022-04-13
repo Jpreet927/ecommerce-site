@@ -3,7 +3,9 @@ import ProductCard from '../Components/ProductCard'
 import { mensProducts } from '../Data/MenProducts'
 import "../Styles/MensPage/MensPage.css"
 
-function MensPage() {
+function MensPage(props) {
+  const { cartItems, handleAdd } = props;
+
   return (
     <>
       <div className="mens__container">
@@ -14,7 +16,7 @@ function MensPage() {
       </div>
       <div className="mens__product-section">
       {mensProducts.map((item) => (
-        <ProductCard key={item.id} product={item} />
+        <ProductCard key={item.id} product={item} handleAdd={handleAdd} />
       ))}
     </div>
   </>
