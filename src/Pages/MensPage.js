@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ProductCard from '../Components/ProductCard'
 import { mensProducts } from '../Data/MenProducts'
 import "../Styles/MensPage/MensPage.css"
@@ -16,7 +17,7 @@ function MensPage(props) {
       </div>
       <div className="mens__product-section">
       {mensProducts.map((item) => (
-        <ProductCard key={item.id} product={item} handleAdd={handleAdd} />
+        <Link to={`/mens/${item.id}`}><ProductCard key={item.id} product={item} handleAdd={handleAdd} /></Link>
       ))}
     </div>
   </>

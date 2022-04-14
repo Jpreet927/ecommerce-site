@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { womensProducts } from './Data/WomenProducts'
+import { mensProducts } from './Data/MenProducts'
 import HomePage from "./Pages/HomePage";
 import MensPage from "./Pages/MensPage";
 import WomensPage from "./Pages/WomensPage";
 import AboutPage from "./Pages/AboutPage";
 import CheckoutPage from "./Pages/CheckoutPage";
+import ProductPage from './Pages/ProductPage';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import './Styles/App.css';
@@ -73,6 +76,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar cartItems={cartItems} cartVisible={cartVisible} setCartVisible={setCartVisible} handleRemove={handleRemove} />
+        {/* <ProductPage /> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/mens" element={<MensPage cartItems={cartItems} handleAdd={handleAdd} />} />
@@ -87,7 +91,9 @@ function App() {
               handleRemove={handleRemove} 
             />} 
           />
-        </Routes>
+          <Route path="/womens/:id" element={<ProductPage products={womensProducts} />} />
+          <Route path="/mens/:id" element={<ProductPage products={mensProducts} />} />
+         </Routes>
         <Footer />
       </div>
     </Router>

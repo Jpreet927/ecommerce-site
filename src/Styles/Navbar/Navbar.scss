@@ -10,6 +10,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 100;
   background-color: $backgroundBlackOpacity;
   backdrop-filter: blur(16px);
 
@@ -44,7 +45,7 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      z-index: 5;
+      z-index: 110;
       display: flex;
       justify-content: center;
       align-items: center;

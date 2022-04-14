@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ProductCard from '../Components/ProductCard'
 import '../Styles/WomensPage/WomensPage.scss'
 import { womensProducts } from '../Data/WomenProducts'
@@ -18,7 +19,7 @@ function WomensPage(props) {
       </div>
       <div className="womens__product-section">
         {womensProducts.map((item) => (
-          <ProductCard key={item.id} product={item} handleAdd={handleAdd} />
+          <Link to={`/womens/${item.id}`}><ProductCard key={item.id} product={item} handleAdd={handleAdd} /></Link>
         ))}
       </div>
     </>
