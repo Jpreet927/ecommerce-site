@@ -24,11 +24,39 @@
   }
 }
 
-.womens__product-section {
+.womens__product-container {
   background: $backgroundBlack;
   // height: 100vh;
-  padding: 120px 240px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 60px 240px;
+
+  .womens__product-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+    .womens__product-options-sorting {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+
+      label {
+        color: $subtextWhite;
+        font-family: $sansSerifMain;
+      }
+
+      select {
+        padding: 12px;
+        width: 200px;
+        background: $backgroundGrey;
+        border: none;
+        color: $subtextWhite;
+      }
+    }
+  }
+
+  .womens__product-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }

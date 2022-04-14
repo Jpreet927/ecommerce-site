@@ -57,5 +57,12 @@
       width: 15px;
       height: 15px;
     }
+
+    .mui-icon {
+      &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+    }
   }
 }

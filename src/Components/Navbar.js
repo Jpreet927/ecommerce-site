@@ -3,9 +3,14 @@ import { Link } from "react-router-dom"
 import Cart from "../Components/Cart"
 import '../Styles/Navbar/Navbar.css'
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import SearchIcon from '@mui/icons-material/Search';
 
 function Navbar(props) {
   const { cartItems, cartVisible, setCartVisible, handleRemove } = props;
+
+  const cartQuantity = cartItems.reduce((acc, curr) => (
+    acc + curr.quantity
+  ), 0);
 
   const handleCartVisible = () => {
     setCartVisible(true);
@@ -25,8 +30,11 @@ function Navbar(props) {
               <Link to="womens" className="navbar__nav-link">Womens</Link>
               <Link to="about" className="navbar__nav-link">About</Link>
               <div className="navbar__cart-icon">
-                { cartItems.length > 0 && <div className="navbar__cart-count">{ cartItems.length }</div> }
+                { cartItems.length > 0 && <div className="navbar__cart-count">{ cartQuantity }</div> }
                 <ShoppingCartCheckoutIcon sx={{ color: 'white' }} className="mui-icon" onClick={handleCartVisible} />
+              </div>
+              <div className="navbar__search-c">
+                <Link to="search"><SearchIcon sx={{ color: 'white' }} /></Link>
               </div>
           </nav>
       </div>

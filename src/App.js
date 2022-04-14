@@ -8,16 +8,18 @@ import WomensPage from "./Pages/WomensPage";
 import AboutPage from "./Pages/AboutPage";
 import CheckoutPage from "./Pages/CheckoutPage";
 import ProductPage from './Pages/ProductPage';
+import SearchPage from './Pages/SearchPage'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import './Styles/App.css';
 
 function App() {
+  const [womens, setWomens] = useState(womensProducts);
+  const [mens, setMens] = useState(mensProducts);
   const [cartItems, setCartItems] = useState([]);
   const [cartVisible, setCartVisible] = useState(false);
 
   useEffect(() => {
-    console.log(cartItems);
   }, [cartItems]);
 
   const handleAdd = (newProduct) => {
@@ -79,8 +81,24 @@ function App() {
         {/* <ProductPage /> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/mens" element={<MensPage cartItems={cartItems} handleAdd={handleAdd} />} />
-          <Route path="/womens" element={<WomensPage cartItems={cartItems} handleAdd={handleAdd} />} />
+          <Route 
+            path="/mens" 
+            element={<MensPage 
+              mensItems={mens} 
+              setMensItems={setMens}
+              cartItems={cartItems} 
+              handleAdd={handleAdd} 
+            />} 
+          />
+          <Route 
+            path="/womens" 
+            element={<WomensPage 
+              womensItems={womens} 
+              setWomensItems={setWomens}
+              cartItems={cartItems} 
+              handleAdd={handleAdd} 
+            />} 
+          />
           <Route path="/about" element={<AboutPage />} />
           <Route 
             path="/checkout" 
@@ -91,6 +109,7 @@ function App() {
               handleRemove={handleRemove} 
             />} 
           />
+          <Route path="/search" element={<SearchPage />} />
           <Route path="/womens/:id" element={<ProductPage products={womensProducts} />} />
           <Route path="/mens/:id" element={<ProductPage products={mensProducts} />} />
          </Routes>

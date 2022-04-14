@@ -176,5 +176,15 @@
   padding: 12px;
   margin-top: 24px;
   width: 100%;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.checkout__container .checkout__main .checkout__summary .checkout__summary-total .checkout__summary-order-button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
 }
 /*# sourceMappingURL=CheckoutPage.css.map */

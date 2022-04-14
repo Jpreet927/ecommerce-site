@@ -42,6 +42,12 @@
     font-weight: 700;
     padding: 12px;
     width: 100%;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
   }
 
   .cart__divider {

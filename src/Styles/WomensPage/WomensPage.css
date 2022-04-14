@@ -28,9 +28,45 @@
   color: #f3f3f3;
 }
 
-.womens__product-section {
+.womens__product-container {
   background: #080d12;
-  padding: 120px 240px;
+  padding: 60px 240px;
+}
+
+.womens__product-container .womens__product-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 60px;
+}
+
+.womens__product-container .womens__product-options .womens__product-options-sorting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.womens__product-container .womens__product-options .womens__product-options-sorting label {
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+}
+
+.womens__product-container .womens__product-options .womens__product-options-sorting select {
+  padding: 12px;
+  width: 200px;
+  background: #171a22;
+  border: none;
+  color: #f3f3f3;
+}
+
+.womens__product-container .womens__product-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

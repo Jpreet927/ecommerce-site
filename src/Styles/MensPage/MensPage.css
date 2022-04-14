@@ -28,13 +28,51 @@
   color: #f3f3f3;
 }
 
-.mens__product-section {
+.mens__product-container {
   background: #080d12;
-  padding: 120px 240px;
+  padding: 60px 240px;
+}
+
+.mens__product-container .mens__product-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 60px;
+}
+
+.mens__product-container .mens__product-options .mens__product-options-sorting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mens__product-container .mens__product-options .mens__product-options-sorting label {
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+}
+
+.mens__product-container .mens__product-options .mens__product-options-sorting select {
+  padding: 12px;
+  width: 200px;
+  background: #171a22;
+  border: none;
+  color: #f3f3f3;
+}
+
+.mens__product-container .mens__product-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
