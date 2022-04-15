@@ -1,0 +1,80 @@
+@import "../../Utilities/variables";
+
+.searchresult__main {
+  margin-top: 30px;
+
+  h1,
+  h3,
+  p {
+    color: $subtextWhite;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .searchresult__information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .searchresult__column {
+      width: 25%;
+      display: flex;
+    }
+
+    .searchresult__name {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        color: $subtextGrey;
+      }
+    }
+
+    .searchresult__price {
+      display: flex;
+      justify-content: flex-end;
+
+      p {
+        font-size: 18px;
+      }
+      //   text-align: left;
+    }
+
+    .searchresult__chevron {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .searchresult__thumbnail {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .searchresult__quantity {
+      gap: 12px;
+
+      button {
+        background: none;
+        border: none;
+      }
+    }
+  }
+
+  .searchresult__divider {
+    background-color: $subtextGrey;
+    opacity: 0.3;
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+  }
+}

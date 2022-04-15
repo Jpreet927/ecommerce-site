@@ -1,0 +1,100 @@
+.searchresult__main {
+  margin-top: 30px;
+}
+
+.searchresult__main h1,
+.searchresult__main h3,
+.searchresult__main p {
+  color: #f3f3f3;
+}
+
+.searchresult__main p {
+  font-size: 14px;
+}
+
+.searchresult__main .searchresult__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.searchresult__main .searchresult__information .searchresult__column {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.searchresult__main .searchresult__information .searchresult__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.searchresult__main .searchresult__information .searchresult__name p {
+  color: #80868d;
+}
+
+.searchresult__main .searchresult__information .searchresult__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.searchresult__main .searchresult__information .searchresult__price p {
+  font-size: 18px;
+}
+
+.searchresult__main .searchresult__information .searchresult__chevron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.searchresult__main .searchresult__information .searchresult__thumbnail {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.searchresult__main .searchresult__information .searchresult__thumbnail img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.searchresult__main .searchresult__information .searchresult__quantity {
+  gap: 12px;
+}
+
+.searchresult__main .searchresult__information .searchresult__quantity button {
+  background: none;
+  border: none;
+}
+
+.searchresult__main .searchresult__divider {
+  background-color: #80868d;
+  opacity: 0.3;
+  height: 1px;
+  width: 100%;
+  border: none;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=SearchResult.css.map */

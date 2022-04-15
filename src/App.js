@@ -110,8 +110,8 @@ function App() {
             />} 
           />
           <Route path="/search" element={<SearchPage />} />
-          <Route path="/womens/:id" element={<ProductPage products={womensProducts} />} />
-          <Route path="/mens/:id" element={<ProductPage products={mensProducts} />} />
+          <Route path="/womens/:id" element={<ProductPage products={womensProducts} handleAdd={handleAdd} />} />
+          <Route path="/mens/:id" element={<ProductPage products={mensProducts} handleAdd={handleAdd} />} />
          </Routes>
         <Footer />
       </div>

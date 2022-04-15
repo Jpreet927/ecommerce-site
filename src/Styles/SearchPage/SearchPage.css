@@ -1,0 +1,90 @@
+.search__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../Assets/Images/Search-Hero.jpg");
+  background-size: cover;
+  background-position: 0px -500px;
+  padding: 120px;
+}
+
+.search__container .search__main {
+  background: rgba(8, 13, 18, 0.904);
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+  width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 75vh;
+  margin-top: 60px;
+  padding: 80px 160px;
+}
+
+.search__container .search__heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+
+.search__container .search__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.158);
+}
+
+.search__container .search__input input {
+  background: none;
+  border: none;
+  padding: 24px 16px;
+  width: 100%;
+  color: #f3f3f3;
+}
+
+.search__container .search__input input:focus {
+  outline: none;
+}
+
+.search__container h1 {
+  font-family: "Bodoni Moda", serif;
+  color: #ff002e;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.search__container h3 {
+  font-family: "Roboto", sans-serif;
+  color: #f3f3f3;
+}
+
+.search__container p {
+  font-family: "Roboto", sans-serif;
+  color: #f3f3f3;
+  line-height: 1.5em;
+}
+/*# sourceMappingURL=SearchPage.css.map */

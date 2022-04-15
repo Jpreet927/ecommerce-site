@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import '../Styles/ProductPage/ProductPage.css'
 
 function ProductPage(props) {
-    const { products } = props;
+    const { products, handleAdd } = props;
 
     let params = useParams();
     console.log(products);
@@ -26,7 +26,7 @@ function ProductPage(props) {
                 <div className="productpage__right-desc">
                     <p>{product.description}</p>
                 </div>
-                <button className="productpage__right-button">Add to Cart</button>
+                <button className="productpage__right-button" onClick={() => handleAdd(product)} >Add to Cart</button>
             </div>
         </div>
     </div>
