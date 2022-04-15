@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/ecommerce-site/static/css/main.6f6608ca.css",
+    "main.js": "/ecommerce-site/static/js/main.0c61753f.js",
+    "static/media/6.jpg": "/ecommerce-site/static/media/6.7a4d0ac5ea91658189bd.jpg",
+    "static/media/9.jpg": "/ecommerce-site/static/media/9.80a2f1ee61786fca7d7a.jpg",
+    "static/media/7.jpeg": "/ecommerce-site/static/media/7.d0ad24039bc13adfee56.jpeg",
+    "static/media/2.jpg": "/ecommerce-site/static/media/2.2f5acb19cc561bd1e7f6.jpg",
+    "static/media/3.jpg": "/ecommerce-site/static/media/3.df15fc7e91cad8577ac4.jpg",
+    "static/media/5.jpg": "/ecommerce-site/static/media/5.e3593ededa060b1d1771.jpg",
+    "static/media/6.jpeg": "/ecommerce-site/static/media/6.b27afd7f05967ba066ab.jpeg",
+    "static/media/8.jpg": "/ecommerce-site/static/media/8.c799f3beb8ef149e7bbb.jpg",
+    "static/media/7.jpg": "/ecommerce-site/static/media/7.3145f06d4f10f67d7577.jpg",
+    "static/media/Search-Hero.jpg": "/ecommerce-site/static/media/Search-Hero.622eb1040fefabb6beb2.jpg",
+    "static/media/8.jpeg": "/ecommerce-site/static/media/8.349620291011715f7afb.jpeg",
+    "static/media/4.jpg": "/ecommerce-site/static/media/4.75029b8259f85531471f.jpg",
+    "static/media/Women-Hero-4.jpg": "/ecommerce-site/static/media/Women-Hero-4.17503f0176f04993853a.jpg",
+    "static/media/About-Hero-2.jpg": "/ecommerce-site/static/media/About-Hero-2.8530e78201c1c94d7919.jpg",
+    "static/media/Women-Hero-2.jpg": "/ecommerce-site/static/media/Women-Hero-2.53103f2028c417a83cbd.jpg",
+    "static/media/Men-Hero-3.jpg": "/ecommerce-site/static/media/Men-Hero-3.7b838f025068b87ab05c.jpg",
+    "static/media/11.jpeg": "/ecommerce-site/static/media/11.bccf187830990edd15a3.jpeg",
+    "static/media/Checkout-Hero.jpg": "/ecommerce-site/static/media/Checkout-Hero.0d42bb5ea477b3044605.jpg",
+    "static/media/About-Hero.jpg": "/ecommerce-site/static/media/About-Hero.f6033ffb0b982c5f14d5.jpg",
+    "static/media/1.jpg": "/ecommerce-site/static/media/1.c66b7edc58b3769b9a36.jpg",
+    "static/media/5.jpeg": "/ecommerce-site/static/media/5.0f599281632c0e79391a.jpeg",
+    "static/media/Instagram-Logo.png": "/ecommerce-site/static/media/Instagram-Logo.23049e9ca82ec4f3da08.png",
+    "static/media/Twitter-Logo.png": "/ecommerce-site/static/media/Twitter-Logo.41477c7ee8decdc4c02d.png",
+    "static/media/Signature.png": "/ecommerce-site/static/media/Signature.a6034abafa60f7706a1d.png",
+    "static/media/YouTube-Logo.png": "/ecommerce-site/static/media/YouTube-Logo.fa8a7b8e054c7dfaac0b.png",
+    "static/media/Facebook-Logo.png": "/ecommerce-site/static/media/Facebook-Logo.49f1cc8b5add799e1262.png",
+    "index.html": "/ecommerce-site/index.html",
+    "main.6f6608ca.css.map": "/ecommerce-site/static/css/main.6f6608ca.css.map",
+    "main.0c61753f.js.map": "/ecommerce-site/static/js/main.0c61753f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f6608ca.css",
+    "static/js/main.0c61753f.js"
+  ]
+}
